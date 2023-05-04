@@ -1,0 +1,21 @@
+What is git?
+Git is a version controlling system that is used by a group of programmers or group of people simultaneously making changes on the same files to manage and maintain the changes that are made to these files. Git tracks the changes made to files so that you have a record of what has been done and you can revert to specific versions if needed. It makes collaboration easier when you make changes to files, so you have a record of what has been done, and you can revert to specific versions should you ever need to. Git also makes collaboration easier, allowing changes by multiple people to all be merged into one source. 
+
+Here are some of the git commands I have learnt and what they do:
+
+(git clone) - used to clone a remote repository to the local machine
+(git init) - used to initialise the git folder on the local machine
+(git status) - Used to see tracked and untracked changes on the local machine
+(git add .) - Used to add the files on the local machine to the remote repo
+(git commit -m “message”) - Used to commit the changes made on the local machine to the remote repository. Also used to hold message text regarding what changes have been made
+(git commit -am “message”) - used to add and commit at the same time but you must have already done a previous add to use this
+(git push) used to push the committed changes on the local machine to the remote repository
+(git remote) used to see the remote repositories that are linked to your local machine
+(git branch) Used to check what branches that are linked to your local git folder
+(git checkout -b <branch-name>) Used to create a new branch called <branch-name>
+(git checkout <branch-name>) Used to switch from current branch to the branch called <branch-name>
+(git diff <branch-name>) used to check the differences between the current branch you are in and the branch called <branch-name>
+(git reset) this is used to undo changes that have been made to the local repository. You can use git reset <filename> or git reset HEAD~1 depending on the scenario
+The final principle i learnt is how to use forking. Forking is used to copy another repository created by someone else into your own remote repository so you can start making changes from there. 
+
+Overall, I have learnt a lot of useful git commands which I am looking forward to using in the coming weeks and months. 
